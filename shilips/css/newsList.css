@@ -1,0 +1,321 @@
+body {
+	overflow-x: hidden;
+}
+
+ul,
+li {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+.wrapper {
+	padding-top: 50px;
+}
+
+.container,
+.row {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+/*导航*/
+
+nav .container-fluid {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.dropdown .dropdown-menu li a {
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #ccc;
+}
+
+.dropdown-menu {
+	padding: 0;
+}
+
+
+/*LOGO*/
+
+
+/*加to到什么结束
+ 不加to是从什么开始*/
+
+
+/*-moz-border-radius
+ border-radius
+ 先识别带兼容的*/
+
+.logo {
+	padding: 0;
+}
+
+.logo-box {
+	width: 140px;
+	background: -webkit-linear-gradient(left, #1c1a4c, #3177b9);
+}
+
+.logo span {
+	display: block;
+	color: #fff;
+}
+
+.logo1 {
+	background: #fff;
+	padding: 25px 10px;
+	border-bottom-right-radius: 40px;
+}
+
+.logo2 {
+	height: 0;
+	background: -webkit-linear-gradient(left, #1c368c, #3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+
+.logo3 {
+	height: 50px;
+	background: -webkit-linear-gradient(left, #1c1a4c, #3177b9);
+	line-height: 50px;
+	padding-left: 10px
+}
+
+
+/*移动端 LOGO*/
+
+.logo-m {
+	width: 100px;
+	margin: 15px 0 0 10px;
+}
+
+
+/*站点地图*/
+
+.siteMap {
+	background: #122B40;
+	color: #fff;
+}
+
+.siteMap h2 {
+	font-size: 24px;
+}
+
+.siteMap li a {
+	color: #fff;
+}
+
+
+/*版权*/
+
+.footer {
+	background: -webkit-linear-gradient(top, #022573, #035086);
+}
+
+.weibo {
+	color: #15A9D4;
+	margin-top: 20px;
+}
+
+.weibo img {
+	width: 30px;
+	display: block;
+}
+
+.weibo2 {
+	color: #15A9D4;
+	margin-top: 50px;
+	max-width: 87px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.weibo2 img {
+	display: inline-block;
+	width: 30px;
+}
+
+.footer-logo {
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.menus {
+	width: 195px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.copyrigt {
+	text-align: center;
+}
+
+.copyrigt ul {
+	padding-top: 20px;
+}
+
+.copyrigt li {
+	display: inline-block;
+}
+
+.copyrigt li a {
+	color: #fff;
+	padding: 0 5px;
+	border-right: 1px solid #fff;
+}
+
+.copyrigt li:last-child a {
+	border: none;
+}
+
+.copyrigt p {
+	color: #fff;
+}
+
+
+/*中部*/
+
+
+/*cursor:一些不同的光标
+ * default默认光标（通常是一个箭头）*/
+/*左边*/
+.lefts {
+	padding: 10px;
+}
+
+.lefts .nav a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #022573;
+}
+
+.lefts .tab-pane {
+	border: 1px solid #ccc;
+	border-top: none;
+	padding: 10px;
+	padding-bottom: 0;
+}
+
+.lefts dl {
+	border-bottom: 1px dashed #ccc;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+.lefts dt {
+	max-width: 200px;
+	float: left;
+	margin-right: 15px;
+}
+
+.lefts h2 {
+	font-size: 16px;
+	max-width: calc(100% - 200px);
+	/*溢出不换行*/
+	white-space: nowrap;
+	/*变省略号*/
+	text-overflow: ellipsis;
+	/*溢出隐藏*/
+	overflow: hidden;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.lefts p {
+	color: #5E5E5E;
+	line-height: 1.7;
+}
+
+.lefts .more a {
+	float: right;
+	background: #15A9D4;
+}
+.more a {
+    display: block;
+    border-radius: 5px;
+    padding: 8px 15px;
+    background: #1B6D85;
+    width: 120px;
+    text-align: center;
+    color: #fff;
+}
+/*右边*/
+.rights h2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #022573;
+}
+
+.listNews {
+	width: 300px;
+	/*css3新属性：阴影*/
+	box-shadow: 2px 2px 2px #ccc;
+	overflow: hidden;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.listNews dt {
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+}
+
+.listNews h2 {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.rights .more a {
+	float: right;
+	background: #15A9D4;
+	margin-right: 5px;
+	width: 100px;
+	padding: 5px 0;
+}
+
+/**/
+
+.paging {
+	padding: 10px 0;
+}
+
+.paging ul li {
+	float: left;
+	margin: 0 5px;
+	background: #EFEFEF;
+}
+
+.paging .active {
+	background: #022573;
+}
+
+.paging .active a {
+	color: #fff;
+}
+
+.paging ul li a {
+	color: #022573;
+	padding: 0 10px;
+	text-decoration: none;
+}

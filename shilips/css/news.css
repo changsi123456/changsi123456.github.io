@@ -1,0 +1,334 @@
+body {
+	overflow-x: hidden;
+}
+
+ul,
+li {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+.wrapper {
+	padding-top: 50px;
+}
+
+.container,
+.row {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+/*导航*/
+
+nav .container-fluid {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.dropdown .dropdown-menu li a {
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #ccc;
+}
+
+.dropdown-menu {
+	padding: 0;
+}
+
+
+/*LOGO*/
+
+
+/*加to到什么结束
+ 不加to是从什么开始*/
+
+
+/*-moz-border-radius
+ border-radius
+ 先识别带兼容的*/
+
+.logo {
+	padding: 0;
+}
+
+.logo-box {
+	width: 140px;
+	background: -webkit-linear-gradient(left, #1c1a4c, #3177b9);
+}
+
+.logo span {
+	display: block;
+	color: #fff;
+}
+
+.logo1 {
+	background: #fff;
+	padding: 25px 10px;
+	border-bottom-right-radius: 40px;
+}
+
+.logo2 {
+	height: 0;
+	background: -webkit-linear-gradient(left, #1c368c, #3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+
+.logo3 {
+	height: 50px;
+	background: -webkit-linear-gradient(left, #1c1a4c, #3177b9);
+	line-height: 50px;
+	padding-left: 10px
+}
+
+
+/*移动端 LOGO*/
+
+.logo-m {
+	width: 100px;
+	margin: 15px 0 0 10px;
+}
+
+
+/*站点地图*/
+
+.siteMap {
+	background: #122B40;
+	color: #fff;
+}
+
+.siteMap h2 {
+	font-size: 24px;
+}
+
+.siteMap li a {
+	color: #fff;
+}
+
+
+/*版权*/
+
+.footer {
+	background: -webkit-linear-gradient(top, #022573, #035086);
+}
+
+.weibo {
+	color: #15A9D4;
+	margin-top: 20px;
+}
+
+.weibo img {
+	width: 30px;
+	display: block;
+}
+
+.weibo2 {
+	color: #15A9D4;
+	margin-top: 50px;
+	max-width: 87px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.weibo2 img {
+	display: inline-block;
+	width: 30px;
+}
+
+.footer-logo {
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.menus {
+	width: 195px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.copyrigt {
+	text-align: center;
+}
+
+.copyrigt ul {
+	padding-top: 20px;
+}
+
+.copyrigt li {
+	display: inline-block;
+}
+
+.copyrigt li a {
+	color: #fff;
+	padding: 0 5px;
+	border-right: 1px solid #fff;
+}
+
+.copyrigt li:last-child a {
+	border: none;
+}
+
+.copyrigt p {
+	color: #fff;
+}
+
+
+/*banner*/
+
+.banner {
+	background: url(../img/ultrasound-l.jpg) no-repeat;
+	background-size: cover;
+	margin-top: 51px;
+}
+
+.detail-text {
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 5%;
+}
+
+.detail-text h2 {
+	font-size: 30px;
+}
+
+.detail-text h3 {
+	font-size: 24px;
+}
+
+
+/*中间*/
+
+.detail-content h2 {
+	font-size: 16px;
+	color: #333;
+	margin-left: 10px;
+}
+
+.detail-content h1 {
+	text-align: center;
+	font-size: 18px;
+}
+
+.d-info {
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	margin: 0 10px 10px 10px;
+}
+
+.d-info p {
+	float: left;
+	margin: 0 0 10px;
+}
+
+.detail-content .main {
+	text-align: center;
+}
+
+.detail-content .main img {
+	max-width: 320px;
+}
+
+.detail-content .main p {
+	text-align: left;
+	margin: 5px 0;
+	padding-left: 10px;
+}
+
+
+/*分页*/
+
+.page span {
+	display: block;
+	line-height: 1.6;
+}
+
+.page span a {
+	text-decoration: none;
+	color: #337AB7;
+}
+
+.page span:last-child {
+	background: #15A9D4;
+	width: 110px;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.page span:last-child a {
+	color: #fff;
+}
+
+
+/*回到顶部*/
+
+.backTop {
+	width: 50px;
+	height: 50px;
+	background: rgba(128, 128, 128, 0.6);
+	border-radius: 5px;
+	position: fixed;
+	right: 5px;
+	bottom: 10px;
+	text-align: center;
+	/*光标样式：手*/
+	cursor: pointer;
+	/*display: none;*/
+}
+
+.backTop i {
+	font-size: 28px;
+	line-height: 50px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+
+/*侧栏*/
+
+.sideBar {
+	width: 50px;
+	position: absolute;
+	right: -50px;
+	top: 60%;
+	background: #fff;
+}
+
+.sideBar p {
+	width: 20px;
+	background: #15A9D4;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	left: -20px;
+	top: 35%;
+	cursor: pointer;
+}
+
+.sideBar .code {
+	width: 140px;
+	position: absolute;
+	right: 50px;
+	top: 40px;
+	border: 1px solid #1B6D85;
+	display: none;
+}
+
+.sideBar ul li:nth-child(2):hover .code {
+	display: block;
+}

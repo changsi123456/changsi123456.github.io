@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/detail.css" />
+	</head>
+
+	<body>
+
+		<!--头部-->
+		<header>
+			<a class="left icon" href="index.html"></a>
+			<span>商品详情</span>
+			<div></div>
+		</header>
+		<!--正文-->
+		<div class="container">
+			<!--商品-->
+			<div class="goods-info">
+				<div class="goods-banner">
+					<img src="img/goods-banner.png" />
+				</div>
+				<div class="goods-explain">
+					<h1 id="title">C#编程基础</h1>
+					<ul>
+						<li>
+							商品价格：
+							<em id="price">￥59.00</em>
+						</li>
+						<li id="major">专业：<span>移动互联开发</span><span>移动互联应用</span></li>
+						<li>数量：<input type="number" value="1" />册</li>
+					</ul>
+				</div>
+			</div>
+			<!--详情-->
+			<div class="goods-details clearfix">
+				<div class="detail-hd">
+					<ul>
+						<li class="active">
+							<a href="javascript:void(0)">图文详情</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">规格参数</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">评价(199)</a>
+						</li>
+					</ul>
+				</div>
+				<div class="detail-content" id="intro" style="display: block;">
+					<img src="img/c.jpg">
+					<img src="img/web.jpg">
+					<img src="img/winform.jpg">
+				</div>
+				<div class="detail-content" id="intro" style="display: block;">
+					<img src="img/loading.gif" class="loading">
+					<p>等待加载 规格参数……</p>
+				</div>
+				<div class="detail-content" id="intro" style="display: block;">
+					<img src="img/loading.gif" class="loading">
+					<p>等待加载 评论……</p>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<footer>
+			<span>
+					<a href="#" class="icon fav" style="background-position-x: -307px;">收藏</a>
+					<a href="#" class="icon secCart">购物车</a>
+				</span>
+			<a href="#">去结算</a>
+			<a href="#" class="addCart">加入购物车</a>
+		</footer>
+		<!--jq源码-->
+		<script src="js/jquery-1.11.0.js"></script>
+		<!--数据-->
+		<script src="js/detail.js"></script>
+		<!--操作-->
+		<script src="js/tools.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,135 @@
+.icon{
+	background: url(../img/icon.png) no-repeat;
+	-webkit-background-size: 375px auto;
+	background-size: 375px auto;
+}
+header{
+	/*肉眼可见*/
+	max-width: 750px;
+	min-width: 320px;
+	background-color: #39435B;
+	color: #FFFFFF;
+	padding: 15px 10px;
+	/*开启弹性布局--设置子元素的对齐方式*/
+	display: flex;
+	justify-content: space-between;
+	/*定位*/
+	position: fixed;
+	top: 0;
+	/*实现居中*/
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+header .left{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-position: -160px -8px;
+}
+header .right{
+	color: #FFFFFF;
+	padding-left: 30px;
+	background-position: -180px -8px;
+}
+/*正文*/
+.container{
+	max-width: 750px;
+	min-width: 320px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	/*上下留白 -- 防止被盖住*/
+	padding: 70px 0;
+}
+.products{
+	background-color: #FFFFFF;
+}
+.products .hd{
+	padding: 10px;
+	font-weight: bold;
+	color: #FF9900;
+	border-bottom: 1px solid #E1E5EE;
+}
+.products .list ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.products .list ul li{
+	width: calc(100% / 3);
+	border-right: 1px solid #E1E5EE;
+	border-bottom: 1px solid #E1E5EE;
+	
+	/*text-align：还能控制子标签（行标签）*/
+	text-align: center;
+	padding: 20px 0;
+}
+.products .list ul li img{
+	max-width: 100px;
+	width: 70%;
+}
+/*更多*/
+.more{
+	width: 120px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	border: 1px solid #AAAAAA;
+	padding: 10px;
+	margin: 20px auto;
+}
+/*底部*/
+footer{
+	max-width: 750px;
+	min-width: 320px;
+	background-color: #39435b;
+	position: fixed;
+	bottom: 0;
+	
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+footer ul{
+	display: flex;
+	justify-content:space-around ;
+}
+footer ul li{
+	width: 45px;
+}
+footer ul li a{
+	text-align: center;
+	color: #fff;
+	display: block;
+	padding-top:40px ;
+}
+footer ul li{
+	width: 45px;
+}
+footer ul li:nth-child(1){
+	background-position: -16px -248px;
+}
+footer ul li:nth-child(2){
+	background-position: -119px -188px;
+}
+footer ul li:nth-child(3){
+	background-position: -224px -188px;
+}
+footer ul li:nth-child(4){
+	background-position: -327px -188px;
+}
+footer li a:focus,footer li a:hover{
+	color: #5bb2ff;
+}
+footer ul li:nth-child(1):hover{
+	background-position: -16px -248px;
+}
+footer ul li:nth-child(2):hover{
+	background-position: -119px -248px;
+}
+footer ul li:nth-child(3):hover{
+	background-position: -224px -248px;
+}
+footer ul li:nth-child(4):hover{
+	background-position: -327px -248px;
+}

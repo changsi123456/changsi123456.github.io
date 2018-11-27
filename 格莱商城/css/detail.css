@@ -1,0 +1,188 @@
+.icon {
+	background: url(../img/icon.png) no-repeat;
+	-webkit-background-size: 375px auto;
+	background-size: 375px auto;
+}
+
+/*头部*/
+
+header {
+	/*肉眼可见*/
+	max-width: 750px;
+	min-width: 320px;
+	background-color: #39435B;
+	color: #E1E5EE;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 15px 10px;
+	/*开启弹性布局---设置子元素的对齐方式*/
+	display: flex;
+	justify-content: space-between;
+	/*\n定位*/
+	position: fixed;
+	top: 0;
+	/*实现居中*/
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+header .left {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-position: -160px -8px;
+}
+
+
+/*中间*/
+
+.container {
+	max-width: 750px;
+	min-width: 320px;
+	margin: 0 auto;
+	/*上下留白---防止被盖住*/
+	padding: 60px 0 60px 0;
+}
+
+.container .goods-info {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.goods-banner img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.goods-explain {
+	padding: 10px 0;
+}
+
+.goods-explain h1 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+.goods-explain li {
+	line-height: 1.5;
+}
+
+.goods-explain li em {
+	color: #C30000;
+	font-size: 16px;
+}
+
+.goods-explain li input {
+	text-align: center;
+	width: 30px;
+	font-weight: bold;
+	border: 1px solid #E1E5EE;
+	height: 24px;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+
+
+/*详情*/
+
+.goods-details {
+	margin-top: 10px;
+	background: #FFFFFF;
+}
+
+.detail-hd {
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px solid #E1E5EE;
+}
+
+.detail-hd .active {
+	line-height: 42px;
+	border-bottom: 2px solid #FF9800;
+}
+
+.detail-hd li {
+	width: 32.333%;
+	text-align: center;
+	display: inline-block;
+}
+
+.detail-hd li a {
+	text-decoration: none;
+	color: #333;
+}
+
+.detail-content {
+	padding: 10px;
+	min-height: 400px;
+	/*display: none;*/
+	text-align: center;
+}
+
+.detail-content img {
+	border: 1px solid #efefef;
+	margin-bottom: 10px;
+}
+
+.detail-content .loading {
+	width: 30px;
+	height: 30px;
+	border: none;
+}
+
+
+/*底部*/
+
+footer {
+	max-width: 750px;
+	min-width: 320px;
+	line-height: 55px;
+	height: 55px;
+	padding: 0 10px;
+	background: #fff;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-top: 1px solid #ddd;
+}
+
+footer>a {
+	display: inline-block;
+	padding: 0 25px;
+	background: #ff9800;
+	float: right;
+	margin-right: -10px;
+	color: #fff;
+	font-size: 16px;
+}
+
+footer .addCart {
+	background-color: #4d5f74;
+	padding: 0 15px;
+}
+
+footer .fav {
+	display: inline-block;
+	width: 41px;
+	height: 41px;
+	padding-top: 13px;
+	text-align: center;
+	margin-right: 30px;
+	background-position: -307px -42px;
+}
+
+footer .secCart {
+	display: inline-block;
+	padding-top: 13px;
+	text-align: center;
+	background-position: -234px -43px;
+}

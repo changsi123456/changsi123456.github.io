@@ -1,0 +1,469 @@
+body {
+	overflow-x: hidden;
+}
+
+ul,
+li {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+.wrapper {
+	padding-top: 50px;
+}
+
+.container,
+.row {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+/*导航*/
+
+nav .container-fluid {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.dropdown .dropdown-menu li a {
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #ccc;
+}
+
+.dropdown-menu {
+	padding: 0;
+}
+
+
+/*LOGO*/
+
+
+/*加to到什么结束
+ 不加to是从什么开始*/
+
+
+/*-moz-border-radius
+ border-radius
+ 先识别带兼容的*/
+
+.logo {
+	padding: 0;
+}
+
+.logo-box {
+	width: 140px;
+	background: -webkit-linear-gradient(left, #1c1a4c, #3177b9);
+}
+
+.logo span {
+	display: block;
+	color: #fff;
+}
+
+.logo1 {
+	background: #fff;
+	padding: 25px 10px;
+	border-bottom-right-radius: 40px;
+}
+
+.logo2 {
+	height: 0;
+	background: -webkit-linear-gradient(left, #1c368c, #3177b9);
+	line-height: 50px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+
+.logo3 {
+	height: 50px;
+	background: -webkit-linear-gradient(left, #1c1a4c, #3177b9);
+	line-height: 50px;
+	padding-left: 10px
+}
+
+
+/*移动端 LOGO*/
+
+.logo-m {
+	width: 100px;
+	margin: 15px 0 0 10px;
+}
+
+
+/*主题一*/
+
+.theme1 {
+	background: url(../img/ultrasound-l.jpg) no-repeat;
+	padding-top: 6%;
+	padding-bottom: 10%;
+	/*规定背景图像的尺寸：*/
+	/*把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。
+背景图像的某些部分也许无法显示在背景定位区域中。*/
+	background-size: cover;
+	min-width: 960px;
+	margin: 0 auto;
+	margin-top: 51px;
+}
+
+.theme1-text {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.theme1-text h2 {
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.theme1-text p {
+	font-size: 18px;
+	width: 380px;
+	line-height: 1.5;
+}
+
+.theme1-text .more a {
+	display: block;
+	border-radius: 5px;
+	padding: 8px 15px;
+	background: #1B6D85;
+	width: 120px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+/*主题一移动端*/
+
+.theme1-m {
+	margin-top: 51px;
+}
+
+.theme1-m .theme1-text {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.theme1-m .theme1-text h2 {
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.theme1-m .theme1-text h2 {
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.theme1-m .more a {
+	margin-left: 10px;
+}
+
+
+/*主题二*/
+
+.theme2 {
+	background: url(../img/li-l.jpg) no-repeat;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	background-size: cover;
+	min-width: 960px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.theme1-text {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.theme1-text h2 {
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.theme1-text p {
+	font-size: 18px;
+	width: 380px;
+	line-height: 1.5;
+}
+
+.theme2 .more a {
+	display: block;
+	border-radius: 5px;
+	padding: 8px 15px;
+	background: rgba(9, 117, 117, 0.8);
+	width: 120px;
+	text-align: center;
+	color: #fff;
+}
+
+
+/*主题二移动端*/
+
+.theme2-m {
+	padding-top: 20px;
+}
+
+.theme2-m .theme1-text {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.theme2-m .theme1-text h2 {
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.theme2-m .theme1-text p {
+	font-size: 14px;
+	width: 320px;
+	line-height: 1.5;
+	padding-left: 10px;
+}
+
+.theme2-m .more a {
+	margin-left: 10px;
+}
+
+
+/*主题 三*/
+
+.theme3 {
+	background: url(../img/philips-watch-left-l.jpg) no-repeat;
+	padding-top: 6%;
+	padding-bottom: 10%;
+	background-size: cover;
+	min-width: 960px;
+	margin: 0 auto;
+	text-align: right;
+	color: #fff;
+}
+
+.theme1-text {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.theme3 .theme1-text h2 {
+	font-size: 42px;
+	font-weight: bold;
+	/*文本阴影效果*/
+	text-shadow: 2px 2px 2px #ccc;
+}
+
+.theme3 .more a {
+	display: block;
+	border-radius: 5px;
+	padding: 8px 15px;
+	background: #1B6D85;
+	width: 120px;
+	text-align: center;
+	color: #fff;
+	float: right;
+}
+
+
+/*主题三移动端*/
+
+.theme3-m {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.theme3-m .theme1-text {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.theme3-m .theme1-text h2 {
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.theme3-m .more a {
+	margin-left: 10px;
+}
+
+
+/*注册*/
+
+.reg {
+	width: 100%;
+	background: #efefef;
+}
+
+.reg .reg-info ul li i {
+	color: #50ad0a;
+	line-height: 1.7;
+}
+
+.reg .reg-info form span {
+	display: block;
+	margin: 5px 0;
+}
+
+
+/*变块级元素占一行*/
+
+.reg input[type="submit"] {
+	display: block;
+}
+
+.reg .club {
+	padding: 0;
+}
+
+.reg .club .club-box {
+	background: url(../img/LM-MyPhilips-Banner.jpg) no-repeat;
+	padding-top: 10%;
+	padding-bottom: 48%;
+	background-size: 100%;
+}
+
+.reg .club .club-box h2,
+.reg .club .club-box h3 {
+	padding: 5px 10px;
+}
+
+
+/*搜索*/
+
+.search {
+	background: #15a9d4;
+}
+
+.search-box {
+	max-width: 450px;
+	padding: 0 20px;
+}
+
+.search-box form {
+	position: relative;
+}
+
+.search-icon {
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+
+
+/*网站地图*/
+
+.siteMap {
+	background-color: #122B40;
+	color: #FFFFFF;
+}
+
+.siteMap h2 {
+	font-size: 24px;
+}
+
+.siteMap li a {
+	color: #FFFFFF;
+}
+
+
+/*站点地图*/
+
+.siteMap {
+	background: #122B40;
+	color: #fff;
+}
+
+.siteMap h2 {
+	font-size: 24px;
+}
+
+.siteMap li a {
+	color: #fff;
+}
+
+
+/*版权*/
+
+.footer {
+	background: -webkit-linear-gradient(top, #022573, #035086);
+}
+
+.weibo {
+	color: #15A9D4;
+	margin-top: 20px;
+}
+
+.weibo img {
+	width: 30px;
+	display: block;
+}
+
+.weibo2 {
+	color: #15A9D4;
+	margin-top: 50px;
+	max-width: 87px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.weibo2 img {
+	display: inline-block;
+	width: 30px;
+}
+
+.footer-logo {
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.menus {
+	width: 195px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.copyrigt {
+	text-align: center;
+}
+
+.copyrigt ul {
+	padding-top: 20px;
+}
+
+.copyrigt li {
+	display: inline-block;
+}
+
+.copyrigt li a {
+	color: #fff;
+	padding: 0 5px;
+	border-right: 1px solid #fff;
+}
+
+.copyrigt li:last-child a {
+	border: none;
+}
+
+.copyrigt p {
+	color: #fff;
+}
+
+

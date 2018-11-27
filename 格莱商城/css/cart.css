@@ -1,0 +1,184 @@
+.icon {
+	background: url(../img/icon.png) no-repeat;
+	-webkit-background-size: 375px auto;
+	background-size: 375px auto;
+}
+
+header {
+	/*肉眼可见*/
+	max-width: 750px;
+	min-width: 320px;
+	background-color: #39435B;
+	color: #FFFFFF;
+	padding: 15px 10px;
+	/*开启弹性布局--设置子元素的对齐方式*/
+	display: flex;
+	justify-content: space-between;
+	/*定位*/
+	position: fixed;
+	top: 0;
+	/*实现居中*/
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 999;
+}
+
+header .left {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-position: -160px -8px;
+}
+
+header span {
+	margin: 0 auto;
+}
+/*正文*/
+
+.container {
+	max-width: 750px;
+	min-width: 32px;
+	margin: 0 auto;
+	padding: 60px 0 60px 0;
+}
+
+.card_list {
+	background: #fff;
+	margin-bottom: 10px;
+}
+
+.card_hd {
+	padding: 0 10px;
+	line-height: 40px;
+	border-bottom: 1px solid #E1E5EE;
+}
+
+.card_hd input {
+	width: 20px;
+	height: 20px;
+	-webkit-appearance: checkbox;
+	border-radius: 2px;
+	vertical-align: middle;
+	border: 1px solid #afbbd9;
+}
+
+.card_items {
+	padding: 5px 10px;
+	border-bottom: 1px solid #E1E5EE;
+	position: relative;
+}
+
+.card_items dl dt {
+	width: calc(100% / 3);
+	float: left;
+}
+
+.card_items .price {
+	padding-top: 10px;
+	color: #c30000;
+}
+
+.card_items .you {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	background-position: -256px -7px;
+}
+
+.card_items .you a {
+	display: block;
+	height: 100%;
+}
+
+.card_subtotul {
+	padding: 15px 10px;
+}
+
+.card_subtotul .price em {
+	color: #c30000;
+}
+
+.card_subtotul .count {
+	float: right;
+	position: relative;
+}
+
+.card_subtotul .count .minus {
+	display: block;
+	width: 30px;
+	height: 28px;
+	border: 1px solid #E1E5EE;
+	position: absolute;
+	right: 60px;
+	background-position: -278px -3px;
+}
+
+.card_subtotul .count input {
+	width: 30px;
+	height: 28px;
+	border: 1px #E1E5EE solid;
+	position: absolute;
+	right: 30px;
+	padding: 4px;
+	font-weight: bold;
+}
+
+.card_subtotul .count .add {
+	display: block;
+	width: 30px;
+	height: 28px;
+	border: 1px solid #E1E5EE;
+	position: absolute;
+	right: 0px;
+	background-position: -310px -3px;
+}
+
+
+/*底部*/
+
+footer {
+	max-width: 750px;
+	min-width: 320px;
+	line-height: 55px;
+	height: 55px;
+	padding: 0 10px;
+	background: #fff;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-top: 1px solid #ddd;
+}
+
+footer input {
+	width: 20px;
+	height: 20px;
+	-webkit-appearance: checkbox;
+	appearance: checkbox;
+	border-radius: 2px;
+	vertical-align: middle;
+	margin-right: 4px;
+	border: 1px solid #afbbd9;
+}
+
+footer em {
+	margin-left: 10px;
+	color: #C30000;
+	font-size: 16px;
+}
+
+footer a {
+	display: inline-block;
+	padding: 0 25px;
+	background: #ff9800;
+	float: right;
+	margin-right: -10px;
+	color: #fff;
+	font-size: 16px;
+}
